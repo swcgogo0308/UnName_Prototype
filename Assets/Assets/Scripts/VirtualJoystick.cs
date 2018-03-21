@@ -6,8 +6,8 @@ using UnityEngine.EventSystems;
 
 public class VirtualJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointerDownHandler {
 
+	private Image joystickImg;
     private Image bgImg;
-    private Image joystickImg;
     private Vector3 inputVector;
 
     private void Start()
