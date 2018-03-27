@@ -235,6 +235,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Assets\Scripts\Enemy\CEnemy.cs" />
+    <Compile Include="Assets\Assets\Scripts\IEnemyConflict.cs" />
     <Compile Include="Assets\Assets\Scripts\IPlayerConflict.cs" />
     <Compile Include="Assets\Assets\Scripts\MapObject\Door.cs" />
     <Compile Include="Assets\Assets\Scripts\MiniMap\Map.cs" />

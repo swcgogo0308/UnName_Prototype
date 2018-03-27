@@ -14,11 +14,11 @@ public class Door : MonoBehaviour, IPlayerConflict{
     void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.CompareTag("Player"))
-            Conflict(playerT);
+            PlayerConflict(playerT);
             
     }
 
-    public void Conflict(CPlayer player)
+    public void PlayerConflict(CPlayer player)
     {
         player.moveEvent(movePosition);
     }

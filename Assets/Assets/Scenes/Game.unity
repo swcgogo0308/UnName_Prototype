@@ -804,7 +804,6 @@ GameObject:
   - component: {fileID: 1752948603}
   - component: {fileID: 1752948602}
   - component: {fileID: 1752948605}
-  - component: {fileID: 1752948601}
   - component: {fileID: 1752948606}
   - component: {fileID: 1752948607}
   - component: {fileID: 1752948608}
@@ -815,18 +814,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1752948601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1752948600}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6b0faae9b59efb47a55eb607903d95f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
 --- !u!50 &1752948602
 Rigidbody2D:
   serializedVersion: 4
@@ -1097,6 +1084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e015bb6af084ba41951d9f4f5789995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
 --- !u!4 &1786762003 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4575012885428596, guid: 7867ac6b84deba44a863d2c86bdd31b2,

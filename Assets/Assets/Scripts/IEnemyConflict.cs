@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IPlayerConflict {
-    void PlayerConflict(CPlayer player);
+public interface IEnemyConflict
+{
+    void EnemyConflict(CEnemy enemy);
 }
